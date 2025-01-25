@@ -1,5 +1,4 @@
-
-  @font-face {
+@font-face {
       font-family: 'Plain';
       src: url('../localfonts/Plain-Regular.woff2') format('woff2'),
           url('../localfonts/Plain-Regular.woff') format('woff');
@@ -266,7 +265,7 @@ body {
   font-family: 'Courier New', Courier, monospace; /* Terminal-like font */
   font-weight: bold;
   font-size: 2rem; /* Larger size for hacker-style branding */
-  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Glowing text */
+  text-shadow: 0 0 10px #1e00ff, 0 0 20px #0400ff; /* Glowing text */
 }
 
 .navbar .custom-btn {
@@ -278,9 +277,9 @@ body {
 }
 
 .navbar .custom-btn:hover {
-  background: #00ff00; /* Switch to neon green on hover */
+  background: #002aff; /* Switch to neon green on hover */
   color: #0d0d0d; /* Dark text */
-  box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Glowing effect */
+  box-shadow: 0 0 10px #000dff, 0 0 20px #0004ff; /* Glowing effect */
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -288,7 +287,7 @@ body {
   padding: 0;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.2rem;
-  color: #00ff00; /* Neon green for links */
+  color: #0037ff; /* Neon green for links */
   transition: all 0.4s ease;
 }
 
@@ -317,7 +316,7 @@ body {
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background: #00ff00; /* Neon green */
+  background: #2600ff; /* Neon green */
   transition: background 10ms 300ms ease;
   display: block;
   width: 30px;
@@ -440,9 +439,9 @@ body {
 -----------------------------------------*/
 .about-third {
   margin: 2.2em -0.8em;
-  color: #00ff00; /* Neon green text */
+  color: #3300ff; /* Neon green text */
   font-family: 'Courier New', Courier, monospace; /* Terminal-like font */
-  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Glowing text effect */
+  text-shadow: 0 0 10px #0d00ff, 0 0 20px #0400ff; /* Glowing text effect */
   animation: fadeIn 2s forwards; /* Fade-in effect */
   opacity: 0; /* Start invisible for fade-in */
 }
@@ -772,3 +771,4 @@ body {
       padding: 0.3rem 2rem 0.6rem 2rem;
     }
   }
+
